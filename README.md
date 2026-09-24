@@ -1,14 +1,10 @@
 # Hetzner Rescue → Debian 13 → Proxmox VE
 
-This repository contains two scripts that helps in deploying Proxmox VE on Hertzner server.
+This repository contains a script that helps in deploying Proxmox VE on Hertzner server.
 
 The script can be executed after manually activating the Linux rescue mode on Hertzner and acquiring the new root password.
 
 **This is destructive provisioning for a fresh install. Do not run installation mode against your current working server unless you intend to erase BOTH selected disks.**
-
-The repository consists of two scripts:
-- The first script used to install the debian server.
-- The second script used to install proxmox ve.
 
 ## Prerequistes
 1- Actiate the Linux rescue mode on the Hetzner server.
